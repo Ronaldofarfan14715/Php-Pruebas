@@ -1,0 +1,8 @@
+Options +FollowSymLinks
+
+RewriteEngine on
+
+
+RewriteRule ^link$ rutas.php?url=link
+RewriteRule ^home$ rutas.php?url=home
+
